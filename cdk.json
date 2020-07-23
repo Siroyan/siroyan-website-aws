@@ -1,4 +1,4 @@
 {
   "app": "python3 app.py",
-  "toolkitStackName": "siroyan-web-stack"
+  "toolkitStackName": "siroyan-website-stack"
 }

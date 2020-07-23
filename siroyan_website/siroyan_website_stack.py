@@ -11,7 +11,7 @@ class SiroyanWebsiteStack(core.Stack):
         super().__init__(scope, id, **kwargs)
 
         bucket = s3.Bucket(
-            self, "SiroyanBucket",
+            self, "siroyan.net",
             website_index_document = "index.html",
             public_read_access = True,
             removal_policy = core.RemovalPolicy.DESTROY
