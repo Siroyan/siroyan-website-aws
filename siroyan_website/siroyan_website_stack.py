@@ -12,6 +12,7 @@ class SiroyanWebsiteStack(core.Stack):
 
         bucket = s3.Bucket(
             self, "siroyan.net",
+            bucket_name = "siroyan.net",
             website_index_document = "index.html",
             public_read_access = True,
             removal_policy = core.RemovalPolicy.DESTROY
